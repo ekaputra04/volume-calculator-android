@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalculateVolume</string>
+    <string name="panjang">Panjang</string>
+    <string name="inputkan_panjang">Inputkan Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="inputkan_lebar">Inputkan Lebar</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="inputkan_tinggi">Inputkan Tinggi</string>
+    <string name="hitung_volume">Hitung Volume</string>
+    <string name="aplikasi_penghitung_volume_balok">Aplikasi Penghitung Volume Balok</string>
+    <string name="volume_balok">Volume Balok</string>
+</resources>
