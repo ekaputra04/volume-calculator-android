@@ -7,19 +7,22 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import java.text.DecimalFormat
 
 class MainActivity : Activity(), View.OnClickListener {
-    lateinit var edtPanjang: EditText
-    lateinit var edtLebar: EditText
-    lateinit var edtTinggi: EditText
-    lateinit var btnHitung: Button
-    lateinit var tvHasil: TextView
+    private lateinit var edtPanjang: EditText
+    private lateinit var edtLebar: EditText
+    private lateinit var edtTinggi: EditText
+    private lateinit var btnHitung: Button
+    private lateinit var btnReset: Button
+    private lateinit var tvHasil: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initComponents()
         btnHitung.setOnClickListener(this)
+        btnReset.setOnClickListener(this)
     }
 
     private fun initComponents() {
@@ -27,6 +30,7 @@ class MainActivity : Activity(), View.OnClickListener {
         edtLebar = findViewById(R.id.edt_lebar)
         edtTinggi = findViewById(R.id.edt_tinggi)
         btnHitung = findViewById(R.id.btn_hitung)
+        btnReset = findViewById(R.id.btn_reset)
         tvHasil = findViewById(R.id.tv_volume)
     }
 
@@ -61,11 +65,18 @@ class MainActivity : Activity(), View.OnClickListener {
                 tvHasil.text = volume.toString()
             }
 
+        } else if (view?.id == R.id.btn_reset) {
+            edtPanjang.text("")
+            edtLebar.text("")
+            edtTinggi.text("")
+            tvHasil.text("Volume Balok")
         }
     }
 
     private fun hitungVolumeBalok(panjang: Double, lebar: Double, tinggi: Double): Double {
-        return panjang * lebar * tinggi
+        val volume = panjang * lebar * tinggi
+        val df = DecimalFormat("#.###") // Format dengan maksimal 3 angka di belakang koma
+        return df.format(volume).toDouble()
     }
 
     private fun EditText.error(s: String) {

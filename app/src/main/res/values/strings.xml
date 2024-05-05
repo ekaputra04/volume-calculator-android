@@ -9,4 +9,5 @@
     <string name="hitung_volume">Hitung Volume</string>
     <string name="aplikasi_penghitung_volume_balok">Aplikasi Penghitung Volume Balok</string>
     <string name="volume_balok">Volume Balok</string>
+    <string name="reset">Reset</string>
 </resources>
