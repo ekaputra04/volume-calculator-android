@@ -64,7 +64,6 @@ class MainActivity : Activity(), View.OnClickListener {
                 )
                 tvHasil.text = volume.toString()
             }
-
         } else if (view?.id == R.id.btn_reset) {
             edtPanjang.text("")
             edtLebar.text("")
