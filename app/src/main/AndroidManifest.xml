@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculateVolume">
         <activity
+            android:name=".HitungVolumeKubusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HitungVolumeBalokActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity

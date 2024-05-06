@@ -10,4 +10,11 @@
     <string name="aplikasi_penghitung_volume_balok">Aplikasi Penghitung Volume Balok</string>
     <string name="volume_balok">Volume Balok</string>
     <string name="reset">Reset</string>
+    <string name="kubus">Kubus</string>
+    <string name="balok">Balok</string>
+    <string name="prisma">Prisma</string>
+    <string name="kerucut">Kerucut</string>
+    <string name="aplikasi_penghitung_volume_kubus">Aplikasi Penghitung Volume Kubus</string>
+    <string name="panjang_sisi">Panjang Sisi</string>
+    <string name="develop_by_eka_putra">Develop by Eka Putra</string>
 </resources>
