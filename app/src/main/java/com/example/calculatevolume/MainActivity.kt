@@ -13,6 +13,7 @@ import java.text.DecimalFormat
 class MainActivity : Activity(), View.OnClickListener {
     private lateinit var btnKubus: Button
     private lateinit var btnBalok: Button
+    private lateinit var btnLimas: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,12 +21,13 @@ class MainActivity : Activity(), View.OnClickListener {
         initComponents()
         btnBalok.setOnClickListener(this)
         btnKubus.setOnClickListener(this)
+        btnLimas.setOnClickListener(this)
     }
 
     private fun initComponents() {
         btnBalok = findViewById(R.id.btn_balok)
         btnKubus = findViewById(R.id.btn_kubus)
-
+        btnLimas = findViewById(R.id.btn_limas)
     }
 
     override fun onClick(view: View?) {
@@ -34,6 +36,9 @@ class MainActivity : Activity(), View.OnClickListener {
             startActivity(intent)
         } else if (view?.id == R.id.btn_kubus) {
             val intent = Intent(this, HitungVolumeKubusActivity::class.java)
+            startActivity(intent)
+        } else if (view?.id == R.id.btn_limas) {
+            val intent = Intent(this, HitungVolumeLimasActivity::class.java)
             startActivity(intent)
         }
     }

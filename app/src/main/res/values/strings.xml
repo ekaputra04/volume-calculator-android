@@ -17,4 +17,7 @@
     <string name="aplikasi_penghitung_volume_kubus">Aplikasi Penghitung Volume Kubus</string>
     <string name="panjang_sisi">Panjang Sisi</string>
     <string name="develop_by_eka_putra">Develop by Eka Putra</string>
+    <string name="aplikasi_penghitung_volume_limas">Aplikasi Penghitung Volume Limas</string>
+    <string name="volume_limas">Volume Limas</string>
+    <string name="limas">Limas</string>
 </resources>

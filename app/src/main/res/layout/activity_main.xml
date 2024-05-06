@@ -147,7 +147,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="@string/prisma"
+                    android:text="@string/limas"
                     android:textAlignment="center"
                     android:textColor="@color/purple_700"
                     android:textSize="24sp"
