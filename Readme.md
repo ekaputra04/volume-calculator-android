@@ -38,3 +38,11 @@ Aplikasi ini dibangun menggunakan bahasa pemrograman Kotlin dan didukung oleh An
 3. Sambungkan perangkat Android atau gunakan emulator untuk menjalankan aplikasi.
 
 Atau bisa langsung menginstall [file APK disini](https://drive.google.com/drive/folders/1vNfj3ZFjjTZxf1nExEwnh3qJFQ0l8JCv?usp=sharing)
+
+## Demonstrasi
+
+<p align= "center">
+
+![Demonstrasi](img/demonstrasi.gif)
+
+</p>
