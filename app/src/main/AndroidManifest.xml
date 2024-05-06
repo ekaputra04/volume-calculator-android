@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculateVolume">
         <activity
+            android:name=".HitungVolumeKerucutActivity"
+            android:exported="false" />
+        <activity
             android:name=".HitungVolumeLimasActivity"
             android:exported="false" />
         <activity

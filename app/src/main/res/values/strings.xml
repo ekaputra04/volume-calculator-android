@@ -20,4 +20,8 @@
     <string name="aplikasi_penghitung_volume_limas">Aplikasi Penghitung Volume Limas</string>
     <string name="volume_limas">Volume Limas</string>
     <string name="limas">Limas</string>
+    <string name="aplikasi_penghitung_volume_kerucut">Aplikasi Penghitung Volume Kerucut</string>
+    <string name="jari_jari">Jari-Jari</string>
+    <string name="inputkan_jari_jari">Inputkan Jari-Jari</string>
+    <string name="volume_kerucut">Volume Kerucut</string>
 </resources>
