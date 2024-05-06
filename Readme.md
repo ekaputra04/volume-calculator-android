@@ -41,8 +41,8 @@ Atau bisa langsung menginstall [file APK disini](https://drive.google.com/drive/
 
 ## Demonstrasi
 
-<p align= "center">
+<div align= "center">
 
-![Demonstrasi](img/demonstrasi.gif)
+<img src="img/demonstrasi.gif" alt="Demonstrasi" width="200px">
 
-</p>
+</div>
